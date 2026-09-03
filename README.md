@@ -1,6 +1,6 @@
 # ⚡ NILM Smart Switch
 ### Intelligent Energy Monitoring, Load Identification & Remote Control
-<img src="Capture d'écran 2026-08-09 183044.png" width="850">
+<img src="Untitled design (1).png" width="850">
 **Learn. Identify. Control. Optimize.**
 
 The **NILM Smart Switch** is an intelligent 230 VAC power monitoring and control platform that goes far beyond a conventional energy meter. It doesn't just tell you *how much* electricity a house is consuming — it learns to tell you **which appliance is consuming it**, lets you **control every load remotely from your phone**, and even allows the **utility provider (STEG)** to remotely manage power delivery to a household.
