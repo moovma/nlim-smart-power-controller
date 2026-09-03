@@ -1,6 +1,6 @@
 # ⚡ NILM Smart Switch
 ### Intelligent Energy Monitoring, Load Identification & Remote Control
-
+<img src="Capture d'écran 2026-08-09 183044.png" width="850">
 **Learn. Identify. Control. Optimize.**
 
 The **NILM Smart Switch** is an intelligent 230 VAC power monitoring and control platform that goes far beyond a conventional energy meter. It doesn't just tell you *how much* electricity a house is consuming — it learns to tell you **which appliance is consuming it**, lets you **control every load remotely from your phone**, and even allows the **utility provider (STEG)** to remotely manage power delivery to a household.
@@ -120,14 +120,14 @@ The core challenge NILM Smart Switch explores is estimating each individual comp
 
 <!-- IMAGE 1 — SYSTEM / BOARD LAYOUT (view 1) -->
 <p align="center">
-  <img src="images/layout_1.png" width="850">
+  <img src="Capture d'écran 2026-08-09 183044.png" width="850">
 </p>
 
 *Figure 1 — NILM Smart Switch board layout, functional block placement.*
 
 <!-- IMAGE 2 — SYSTEM / BOARD LAYOUT (view 2) -->
 <p align="center">
-  <img src="images/layout_2.png" width="850">
+  <img src="Capture d'écran 2026-08-10 034332.png" width="850">
 </p>
 
 *Figure 2 — Layout detail showing measurement, processing, and relay zones.*
@@ -286,24 +286,24 @@ Because real loads change behavior with voltage, temperature, and operating mode
 
 <!-- IMAGE 3 — SCHEMATIC 1 -->
 <p align="center">
-  <img src="images/schematic_1.png" width="900">
+  <img src="Capture d'écran 2026-08-24 223719.png" width="900">
 </p>
 
 *Figure 3 — Voltage and current measurement front-end schematic.*
 
 <!-- IMAGE 4 — SCHEMATIC 2 -->
 <p align="center">
-  <img src="images/schematic_2.png" width="900">
+  <img src="Capture d'écran 2026-08-24 223752.png" width="900">
 </p>
 
-*Figure 4 — ADS131M04 precision acquisition and STM32H7A3 interfacing.*
+*Figure 4 — Esp32s3 wireless connectivity .*
 
 <!-- IMAGE 5 — SCHEMATIC 3 -->
 <p align="center">
-  <img src="images/schematic_3.png" width="900">
+  <img src="Capture d'écran 2026-08-24 223832.png" width="900">
 </p>
 
-*Figure 5 — Relay bank, zero-cross detection, and ESP32-S3 connectivity section.*
+*Figure 5 — Relay bank section.*
 
 ---
 
@@ -384,10 +384,9 @@ This capability is architecturally separate from the homeowner's per-appliance c
 ---
 
 ## 🧊 3D Model
-
 <!-- IMAGE 6 — 3D PCB MODEL -->
 <p align="center">
-  <img src="images/pcb_3d.png" width="950">
+  <img src="bgclear_transparent_original (5).png" width="950">
 </p>
 
 *Figure 6 — 3D rendered model of the NILM Smart Switch PCB.*
@@ -469,57 +468,6 @@ This capability is architecturally separate from the homeowner's per-appliance c
 │ App / Cloud / Utility Layer   │
 └───────────────────────────────┘
 ```
-
----
-
-## 📂 Repository Structure
-
-```
-NILM-Smart-Switch/
-│
-├── README.md
-│
-├── Hardware/
-│   ├── Schematic/
-│   ├── PCB/
-│   ├── Gerbers/
-│   ├── BOM/
-│   └── 3D/
-│
-├── Firmware/
-│   ├── STM32/
-│   └── ESP32/
-│
-├── Software/
-│   └── Mobile-App/
-│
-├── DSP/
-│   ├── FFT/
-│   ├── Filtering/
-│   ├── Features/
-│   └── NILM/
-│
-├── Dataset/
-│   └── Load-Signatures/
-│
-├── Documentation/
-│   ├── Architecture/
-│   ├── Measurements/
-│   └── Tests/
-│
-└── images/
-    ├── layout_1.png
-    ├── layout_2.png
-    ├── schematic_1.png
-    ├── schematic_2.png
-    ├── schematic_3.png
-    └── pcb_3d.png
-```
-
-> 💡 Rename your screenshot files to match the names above (or update the paths in this README) before committing the `images/` folder.
-
----
-
 ## ⚠️ Safety
 
 **WARNING: This project interfaces directly with 230 VAC mains voltage. It contains potentially lethal voltages.**
